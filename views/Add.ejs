@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>list</title>
+
+</head>
+<body class="container">
+	<form method="post">
+		<label>Введите внешний ip-адрес</label>
+		<input type="text" name="ip1" placeholder='Вида: 00.00.00.00'>
+		<br><br>
+		<label>Введите внутренний ip-адрес</label>
+		<input type="text" name="ip2" placeholder='Вида: 00.00.00.00'>
+		<br><br>
+		<label>Имеет ли пользователь интерфейс Lte?</label>
+		<select name="lte">
+       		<option value="yes">Yes</option>
+		<option value="no">No</option>
+       		 </select>
+        	<br><br>
+		<label>Имеет ли пользователь интерфейс LoRa?</label>
+		<select name="lora">
+        	<option value="yes">Yes</option>
+		<option value="no">No</option>
+        	</select>
+		<br><br>
+		<label>Имеет ли пользователь интерфейс WiFi?</label>
+		<select name="wifi">
+	        <option value="yes">Yes</option>
+		<option value="no">No</option>
+	        </select>
+		<br><br>
+		<button type="submit">Отправить</button>
+	</form>
+
+</body>
+</html>
